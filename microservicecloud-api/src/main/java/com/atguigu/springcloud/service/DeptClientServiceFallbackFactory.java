@@ -24,6 +24,7 @@ public class DeptClientServiceFallbackFactory implements FallbackFactory<IDeptCl
 
             @Override
             public List<Dept> list() {
+                System.out.println("----------------------list-----------------");
                 return null;
             }
 
