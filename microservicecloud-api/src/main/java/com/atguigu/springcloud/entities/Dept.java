@@ -22,6 +22,9 @@ public class Dept implements Serializable// entity --orm--- db_table
         return deptno;
     }
 
+    /**
+     * @param deptno
+     */
     public void setDeptno(Long deptno) {
         this.deptno = deptno;
     }
